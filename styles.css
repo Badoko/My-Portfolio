@@ -322,7 +322,7 @@ nav .fa-solid{
 
 @media only screen and (max-width:600px){
     .logo{
-        width: 300px;
+        width: 280px;
     }
     #header{
         background-image: url(md.png);
