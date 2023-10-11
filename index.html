@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BADOKO-HOME</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/91cf721c91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/Lvbckg.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm  <span>Msule Badoko</span><br>From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mddb.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I hold a Bachelor's degree in Sociology and  currently pursuing a Masters in Information Management, demonstrating my commitment to continuous education and professional growth. My career aspiration lies in the realm of web development and UI/UX design, with a specialized focus on crafting organizational work solutions packages and proficient database management. In addition to my technical competencies in Digital Marketing, Microsoft and various database applications, I possess a strong foundation in Corporate Ethics and excel in communication. My approach to work is characterized by dedication, meticulousness, and strategic planning. In my capacity as an administrator in Human Resources and Database Management at Federal Medical Center Bida, I have honed my expertise in optimizing administrative processes. Furthermore, I serve as the Director of Sales and Marketing with Aquarius Software Nigeria, where I lead strategic initiatives to drive business growth and expansion.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>Database Administrator</span><br>Microsoft Access, Microsoft Excel, SQL</li>
+                                <li><span>Project Management</span><br>Project Management & Organisation</li>
+                                <li><span>Data Analyst</span><br>Statistical Analysis, Data Cleaning and Preprocessing, Querying and Reporting</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Present</span><br>Administrative Officer II at Federal Medical Center, Bida</li>
+                                <li><span>2020 - Present</span><br>Director, Sales and Makarking at Aquarius Softwares, Nigeria Ltd.</li>
+                                <li><span>2020 - 2021</span><br>Adminstrative/Customer Officer at Kano Electricity Distribution Company (NYSC) </li>
+                                <li><span>2017 - 2018</span><br>Center for Gender Affairs IBBU Lapai (Volunteer)</li>
+                                <li><span>2015 - 2017</span><br>Team Lead Marketing Services at Aquarius Softwares Nigeria Ltd.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Present</span><br>Master in Information Management at Ahmadu Bello University, Zaria</li>
+                                <li><span>2023 - 2023</span><br>Responsive Web Design Certificate at Freecodecamp</li>
+                                <li><span>2015 - 2019</span><br>Bachelor's Degree in Sociology at Ibrahim Badamasi Babangida University, Lapai</li>
+                                <li><span>2008 - 2014</span><br>Senior School Certificate Examination at Jibril Memorial School, Bida</li>
+                                <li><span>2008</span><br>Primary School Leaving Certificate</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------Services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Elevate user experiences with our UI/UX design services. Our team combines creativity and user-centric design principles to craft intuitive interfaces that engage and delight your audience. We specialize in wireframing, prototyping, and user testing, ensuring your application or website is not only visually appealing but also highly functional and easy to navigate.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database management</h2>
+                <p>Our database management services ensure seamless handling, organization, and optimization of your critical data. We offer expertise in designing, implementing, and maintaining robust database systems tailored to your specific needs. Our team excels in data modeling, indexing, performance tuning, and backup/recovery strategies, ensuring your data remains secure, available, and performant.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-pie"></i>
+                <h2>Data Analysis</h2>
+                <p>Uncover valuable insights and make data-driven decisions with our data analyst services. We excel in extracting, transforming, and visualizing data from diverse sources. Our analysts are proficient in statistical analysis, machine learning, and data mining techniques. We deliver actionable reports and dashboards, empowering you to optimize operations and seize opportunities.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!----------------------------portfolio-------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/work1dtb.PNG" alt="">
+                <div class="layer">
+                    <h3>Access Database Manager</h3>
+                    <p>The Access Automated Staff Manager enables a seamless workflow for managing organizational HR records, generating reports, and executing multiple queries while ensuring data integrity.</p>
+                    <a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/ATUTULOGO.svg" alt="">
+                <div class="layer">
+                    <h3>The Atutu Hospital Management System</h3>
+                    <p>Atutu is an integrated information system project for managing all aspects of a hospital's operations such as medical, financial, administrative, legal, and compliance. It includes electronic health records, business intelligence, and revenue cycle management.</p>
+                    <a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work2.PNG" alt="">
+                <div class="layer">
+                    <h3>Tribute Page</h3>
+                    <p>This is a tribute page to Sule Nma Abdullahi, Founder of Aquarius Software Nigeria Ltd, who passed away on the 20th July, 2020.</p>
+                    <a href="https://www.aquariussoftwares.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Badoko" class="btn" >See more</a>
+    </div>
+</div>
+<!------------------contact--------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> mohammedsna2013@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 08032103999</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Msule.Badoko?mibextid=ZbWKwL
+                    "><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/MsuleBadoko?t=ypOaJhilxd3t1lKfVMaF_Q&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/sir_mohammedx?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Badoko"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mr-mohammed-suleiman-abdullahi-8a7103156?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="https://drive.google.com/file/d/1Wcdq9-egFY0V2PLmstkc-zrWYikROMWW/view?usp=drive_link" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copy-right">
+            <p>Copyright  &copy; 2023 Libravana Technologies</p>
+        </div>
+    </footer>
+</div>
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+  
+  <script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwjExgRWAJvE0eIgpFZA7suek-enhFLl4yk5qVGvWZ0TUrPM0EjITLlpUxRQFwhxmk_Gg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
